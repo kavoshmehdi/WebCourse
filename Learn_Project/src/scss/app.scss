@@ -1,0 +1,34 @@
+// variables
+@import "../scss/variables";
+// bootstrap function need
+@import "../vendors/bootstrap-4.5.3/scss/functions";
+@import "../vendors/bootstrap-4.5.3/scss/variables";
+@import "../vendors/bootstrap-4.5.3/scss/mixins";
+header {
+    &.jumbotron {
+        border-bottom-left-radius: 6em;
+    }
+    .navbar {
+        .nav-item {
+            font-size: 1.2em;
+        }
+    }
+    .abilties {
+        .divider {
+            transform: rotate(45deg);
+        }
+    }
+    .social-links {
+        .social-item {
+            border: 2px solid theme-color("primary");
+            font-size: 26px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
